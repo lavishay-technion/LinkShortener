@@ -11,8 +11,10 @@ class JsonManager:
     def write(self, data, file_name: str = "links.json"):
         try:
             with open(file_name, "w") as f:
-                json.dump(data, f)
+                json.dump(data, f, indent=2)
             return True
         except Exception as e:
             return False
+
+
 
