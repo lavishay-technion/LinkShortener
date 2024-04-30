@@ -14,10 +14,11 @@ class LinkShortener:
     @classmethod
     def shorten(self, url: str):
         data=JsonManager.read()
+        exists = False
         for i in data:
             if i['url'] == url:
                 exists = True
-                print(f'URL Already exists, the short url is: {i['shortened']}')
+                print(f"URL Already exists, the short url is: {i['shortened']}")
         if exists == False:
             istrue = True
             while istrue == True:
