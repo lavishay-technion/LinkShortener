@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 fastapi
 uvicorn
 requests
+=======
+fastapi==0.110.3
+uvicorn==0.29.0
+>>>>>>> 1ecd1f6c0a4a66178ff12bf51ac2b37ccd27a1ba
