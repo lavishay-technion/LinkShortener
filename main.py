@@ -6,7 +6,7 @@ from fastapi.responses import RedirectResponse
 
 app = FastAPI()
 
-<<<<<<< HEAD
+
 app = FastAPI()
 
 @app.get("/api/health_check")
@@ -29,7 +29,7 @@ def create_url(params: dict):
 
 
 
-=======
+
 # localhost/health_check
 @app.get("/api/health_check")
 def healthcheck(r: Request):
